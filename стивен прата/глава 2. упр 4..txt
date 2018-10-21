@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+double Farengeit(double);
+int main()
+{
+    double Celsius;
+    cout << "please enter a Celsius value: ";
+    cin >> Celsius;
+    cout << endl << Celsius << " degrees Celsius is " << Farengeit(Celsius)<< " degrees Farengeit"<< endl;
+    return 0;
+}
+double Farengeit(double c);
+{
+    return 1.8 *c + 32;
+}
