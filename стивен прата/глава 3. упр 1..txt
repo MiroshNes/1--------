@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+int inchestolb(int ins)
+{
+	return ins/12;
+}
+int main()
+{
+	using namespace std;
+	int inches;
+	cout << "enter your growth in inches; ";
+	cin >> inches;
+	int pounds = inchestolb(inches);
+	cout << inches << "inches = ";
+	cout << pounds << "pounds " << endl;
+	return 0;
+}
