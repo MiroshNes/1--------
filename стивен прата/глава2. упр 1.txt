@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Anastasia Mironova" << endl;
+	cout << "Nikylskoe,Green Street, 124A" << endl;
+	return 0;
+}

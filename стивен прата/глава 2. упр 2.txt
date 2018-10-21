@@ -1,0 +1,10 @@
+#include <iostream>
+int main()
+{
+	using namespace std;
+	int farlong = 220, x;
+	cout<<"Enter the distance in furlongs and convert it to yards: "<<endl;
+	cin >> x;
+	cout << x <<"farlong = "<< farlong * x << "yard";
+	return 0;
+}
