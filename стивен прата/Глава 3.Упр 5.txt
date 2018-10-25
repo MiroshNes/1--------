@@ -1,0 +1,28 @@
+#include <iostream>
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    using std::cout;
+    using std::cin;
+    using std::endl;
+ 
+    
+    int Distance;
+    int Volume; 
+    cout << "enter the Distance in km: ";
+    cin >> Distance;
+    cout << "enter the Volume in litters: ";
+    cin >> Volume;
+ 
+    
+    double NumberLitersPer100Km = Volume * 100 / Distance;
+    cout << NumberLitersPer100Km << " at 100 km.\n";
+ 
+    
+    const double MileInMeters = 1.609;
+    const double GallonInLiters = 3.785;
+ 
+    double MilesPerGallon = (Distance * GallonInLiters) / (Volume * MileInMeters);
+    cout << "Miles per gallon: " << MilesPerGallon << endl;
+    return 0;
+}
