@@ -1,0 +1,24 @@
+#include <iostream> 
+#include <string> 
+using namespace std; 
+ 
+struct pizza 
+{ 
+ string type; 
+ int diam; 
+ int weight; 
+}; 
+int main() 
+{ 
+ pizza uno; 
+ cout << "Please choose type of pizza: "; 
+ cin >> uno.type; 
+ cout << "\nPlease choose diametr of pizza: "; 
+ cin >> uno.diam; 
+ cout << "\nPlease choose weight of pizza: "; 
+ cin >> uno.weight; 
+ cout << "\nSo your choise is: Pizza " << uno.type << ", diametr " << uno.diam << " cm., weight " << uno.weight << " gr.\n"; 
+ 
+ return 0; 
+}
+
