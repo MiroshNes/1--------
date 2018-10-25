@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+void time(int, int);
+ 
+ 
+int main()
+{
+    int a;
+    cout << "Enter the number of hours: ";
+    cin >> a;
+    int b;
+    cout << "Enter the number of minutes: ";
+    cin >> b;
+    time(a, b);
+    cin.get();
+    cin.get();
+    return 0;
+}
+void time(int j, int k) 
+{
+    cout << "Time " << j << ":" << k << endl;
+}
